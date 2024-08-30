@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.main{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 200px;
+gap: 10px;
+}
+.button{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.input{
+    padding: 10px;
+}
+.range{
+    margin-top: 20px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(59, 59, 248);
+}
+.range{
+    display: flex;
+    align-items: center;
+}
+.range-input{
+    background-color: blue;
+    color: blue;
+}
+span{
+    color: brown;
+    display: inline-flex;
+    align-items: center;
+}
+span::after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 35px;
+    background-color: brown;
+    margin-left: 5px;
+}
